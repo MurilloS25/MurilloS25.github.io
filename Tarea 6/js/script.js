@@ -17,7 +17,7 @@ EncPorEtiqueta.addEventListener("click", () => {
 var EncPorClase = document.getElementById("imgs");
 var imgs = document.getElementsByClassName("img");
 EncPorClase.addEventListener("click", () => {
-  imgs[0].src = "/img/js2.png";
+  imgs[0].src = "./img/js2.png";
 });
 
 //Encontrar por css
