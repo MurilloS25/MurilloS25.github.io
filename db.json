@@ -4,9 +4,7 @@
       "id": 1,
       "title": "Camisa 1",
       "thumbnailUrl": "./img/camisa1.jpg",
-      "tipo": "camisa",
-      "genero": "m",
-      "marca": "nike"
+      "tipo": "camisa"
     },
     {
       "precio": 300,
