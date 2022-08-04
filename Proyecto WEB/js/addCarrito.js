@@ -42,7 +42,7 @@ const fetchDataC = async () => {
 
 const fetchDataP = async () => {
   try {
-    const res = await fetch("../ropa.json");
+    const res = await fetch("https://github.com/MurilloS25/MurilloS25.github.io/blob/main/db.json");
     const data = await res.json();
     mostrarPantalones(data);
   } catch (error) {
