@@ -33,7 +33,7 @@ const fetchData = async () => {
 
 function temporizadorDeRetraso() {
   identificadorTiempoDeEspera = setTimeout(fetchData, 3000);
-}
+};
 
 const fetchDataC = async () => {
   try {
