@@ -22,7 +22,7 @@ cards.addEventListener("click", (e) => {
 
 const fetchData = async () => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarCards(data);
   } catch (error) {
@@ -37,7 +37,7 @@ function temporizadorDeRetraso() {
 
 const fetchDataC = async () => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarCamisas(data);
   } catch (error) {
@@ -47,7 +47,7 @@ const fetchDataC = async () => {
 
 const fetchDataP = async () => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarPantalones(data);
   } catch (error) {
@@ -57,7 +57,7 @@ const fetchDataP = async () => {
 
 const fetchDataT = async () => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarTenis(data);
   } catch (error) {
@@ -68,7 +68,7 @@ const fetchDataT = async () => {
 
 const fetchDataH = async () => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarHombre(data);
   } catch (error) {
@@ -79,7 +79,7 @@ const fetchDataH = async () => {
 
 const fetchDataM = async () => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarMujer(data);
   } catch (error) {
@@ -89,7 +89,7 @@ const fetchDataM = async () => {
 
 const fetchDataMarca = async (marca) => {
   try {
-    const res = await fetch("http://demo6930151.mockable.io/ropa");
+    const res = await fetch("https://demo6930151.mockable.io/ropa");
     const data = await res.json();
     mostrarXMarca(data,marca);
   } catch (error) {
