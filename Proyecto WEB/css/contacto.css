@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat&family=Roboto:wght@300&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.js-errors {
+    margin-top: 3%;
+    background:#f93337;
+    border-radius:4px;
+    color:#FFF;
+    font-size:.8em;
+    list-style-type:square;
+    margin-bottom:1em;
+    padding:1em;
+}
+
+.js-errors {
+	  display:none;
+}
+
+.js-errors li {
+	  margin-left:1em;
+  margin-bottom:.5em;
+  padding-left:0;
+}
+
+body {
+   background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+/* FIN SECCION HEADER */
+
+
+
+/* SECCIONES DEL MAIN */
+
+/* Da el color a los botones de las paginas de compra */
+.btn{
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.btn:hover{
+    background-color: #59ab6e;
+    border-color: #59ab6e;
+    color: #fff;
+}
+
+/* FIN SECCIONES DEL MAIN */
+
+
+/* OTROS ELEMENTOS*/
+/* Color y tamanno de los iconos de lista  y de el carrito */
+.bi-list{
+  color: #000;
+  font-size: 4vh;
+}
+.bi-cart{
+  color: #fff;
+  font-size: 2vh;
+}
+
+#contact_form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: #000000;
+    /* border: 3px #000 solid; */
+}
+
+
+.borde{
+  border-top: rgb(203, 203, 203) solid 2px;
+}
